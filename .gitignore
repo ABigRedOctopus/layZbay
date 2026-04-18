@@ -1,5 +1,8 @@
 layZbay.zip
+dist/
+packages/
 *.zip
+*.xpi
 .DS_Store
 Thumbs.db
 *.log
