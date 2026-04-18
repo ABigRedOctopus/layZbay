@@ -8,8 +8,18 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["contextMenus", "storage", "tabs"],
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "tabs"
+  ],
   "background": {
     "service_worker": "background.js"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "layzbay@chief.local",
+      "strict_min_version": "128.0"
+    }
   }
 }
